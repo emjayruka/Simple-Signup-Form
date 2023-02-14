@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+p {
+    text-align: center;
+}
+.info {
+    padding: 1rem 0;
+}
+button {
+    background-color: #4168c2;
+    color: white;
+    border-radius: 3%;
+    font-size: 13px;
+    width: 60%;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.button2 {
+    background-color: #445170;
+    margin-top: 1rem;
+}
+.middle {
+    margin: 0.5rem;
+}
+
+input {
+    border: 2px solid #D3D2D3;
+    height: 40px;
+    width: 60%;
+    border-radius: 3%;
+}
+.input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+  }
+  .name {
+      display: flex;
+      width: 60%;
+      gap: 5px;
+  }
+  .terms {
+      margin-top: 1rem;
+  }
+  input::placeholder {
+      text-indent: 10px;
+  }
+  button:hover {
+      background-color: #816cee;
+      transition: 0.5s;
+  }
